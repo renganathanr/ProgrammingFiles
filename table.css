@@ -1,0 +1,71 @@
+/*Ensure enclosement*/
+*  {
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#filterForm {
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+  border-radius: 5px; /*Add some border radius*/
+}
+
+.aiTle {
+  border-collapse: collapse; /* Collapse borders */
+  width: 100%; /* Full-width */
+  border: 1px solid #ddd; /* Add a grey border */
+  font-size: 18px; /* Increase font-size */
+  margin-bottom: 12px; /* Add some space below the table */
+}
+
+.aiTle th, .aiTle td {
+  text-align: left; /* Left-align text */
+  padding: 12px; /* Add padding */
+}
+
+.aiTleTh {
+  cursor: pointer;
+}
+
+.aiTle tr {
+  /* Add a bottom border to all table rows */
+  border-bottom: 1px solid #ddd;
+}
+
+.aiTle thead, .aiTle tr:hover {
+  /* Add a grey background color to the table header and on hover */
+  background-color: #f1f1f1;
+}
+
+.aiTleBtns {
+  margin-right: 4px;
+  margin-bottom: 12px; /* Add some space below the button */
+}
+
+.aiTleTh { 
+	padding-right: 18px;
+	position: relative;
+}
+.aiTleTh:before,
+.aiTleTh:after {
+	border: 4px solid transparent;
+	content: "";
+	display: block;
+	height: 0;
+	right: 5px;
+	top: 50%;
+	position: absolute;
+	width: 0;
+}
+.aiTleTh:before {
+	border-bottom-color: #666;
+	margin-top: -9px;
+}
+.aiTleTh:after {
+	border-top-color: #666;
+	margin-top: 1px;
+}

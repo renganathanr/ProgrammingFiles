@@ -4,6 +4,7 @@ Instructions of how to use and features of which this js provides:
     - Instructions:
         1. Add css and js to your html. (Note: <script> at the bottom of body),
         2. Add <body onload="queryTables()">
+        3. Always create your tables inside of a <div> element. (<div><table></table></div> for each table)
 
     - Features:
         1. will filter,
